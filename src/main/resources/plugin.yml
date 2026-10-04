@@ -1,0 +1,10 @@
+name: MingyeolDiscordApi
+version: 1.0.0
+main: kr.kimmi.discordskriptlink.DiscordSkriptLinkPlugin
+api-version: '1.21'
+depend: [Skript]
+permissions:
+  discordskript.link:
+    default: true
+  discordskript.admin:
+    default: op
